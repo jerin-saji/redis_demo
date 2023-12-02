@@ -1,0 +1,18 @@
+
+python manage.py import_csv_data csv_file.csv  -----> custom terminal command for pushing csv data to database
+
+pip install django-redis
+
+settings in redis in setting.py
+
+
+shell command
+
+
+python manage.py shell
+
+from book_api.models import Book
+books = Book.objects.all()
+for book in books:
+    print(book)
+
